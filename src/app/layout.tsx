@@ -3,7 +3,8 @@ import { Inter } from "next/font/google"
 import "./globals.css"
 
 const font = Inter({
-  weight: ["400", "500", "600"]
+  weight: ["400", "500", "600"],
+  subsets: ["latin"]
 })
 
 export const metadata: Metadata = {
