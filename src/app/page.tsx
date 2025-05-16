@@ -1,8 +1,7 @@
-
-export default function Home() {
+export default function Home(): React.JSX.Element {
   return (
-    <div className="flex justify-center items-center h-[100vh]">
+    <div>
       AS-SAFAR is comming ...
     </div>
-  );
+  )
 }
