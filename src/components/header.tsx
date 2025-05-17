@@ -31,7 +31,7 @@ function Logo(): React.JSX.Element {
 function Button(): React.JSX.Element {
   const router = useRouter()
   return (
-    <button className="cursor-pointer px-4 py-2 bg-black text-white rounded-[6px] transition-all duration-300 hover:bg-gray-600
+    <button className="cursor-pointer px-4 py-2 bg-black text-white rounded-[6px] transition-all duration-300 hover:bg-gray-800
     hover:text-[#f7fff9] hover:scale-105"
     onClick={(): void => {router.push("/home")}}>
       Get Started
